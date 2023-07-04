@@ -98,7 +98,7 @@ func Calculator(elements []string) string {
 		}
 		return ClassicToRoman(classicResult)
 	} else {
-		return "Ошибка операции. Используется одновременно разные системы счисления."
+		return "Ошибка операции. Используется одновременно разные системы счисления, либо строка не удовлетворяет заданию."
 	}
 }
 
